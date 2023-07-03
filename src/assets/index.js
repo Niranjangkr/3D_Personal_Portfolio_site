@@ -27,8 +27,10 @@ import school from "./company/school.jpg";
 import starbucks from "./company/starbucks.png";
 import dataChamp from "./company/dataChamp.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+// import carrent from "./carrent.png";
+import paddyScan from "./paddyScan.png"
+// import jobit from "./jobit.png";
+import BookTrack from "./BookTrack.png"
 import tripguide from "./tripguide.png";
 
 export {
@@ -58,7 +60,9 @@ export {
   school,
   starbucks,
   dataChamp,
-  carrent,
-  jobit,
+  // carrent,
+  paddyScan,
+  // jobit,
+  BookTrack,
   tripguide,
 };

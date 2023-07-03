@@ -40,14 +40,14 @@ const ExperienceCard = ({ experience }) => (
           {point}
           {
             index === experience.points.length -1 && experience.url && (
-              <span style={{backgroundColor: 'rgb(41 101 162)'}}>
+              <div>
                 {experience.url.map((url, idx)=>(
                 <React.Fragment key={`url-${idx}`}>
-                  <a href={url}  target='_blank'>{url}</a>
+                  <a href={url}  target='_blank' className='break-words' style={{backgroundColor: 'rgb(41 101 162)'}}>{url}</a>
                   {idx !== experience.url.length - 1 && <br />}
                 </React.Fragment>
                 ))}
-              </span>
+              </div>
             )
           }
 

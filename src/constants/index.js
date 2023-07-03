@@ -19,12 +19,14 @@ import {
     starbucks,
     dataChamp,
     school,
-    carrent,
-    jobit,
+    // carrent,
+    paddyScan,
+    // jobit,
+    BookTrack,
     tripguide,
     threejs,
   } from "../assets";
-  
+
   export const navLinks = [
     {
       id: "about",
@@ -210,49 +212,65 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Paddy Health Scan",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform empowers farmers to effortlessly identify diseases in paddy crops by simply scanning pictures of their leaves.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Python",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "TensorFlow",
           color: "pink-text-gradient",
         },
+        {
+          name: "FastAPI",
+          color: "yellow-text-gradient",
+        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: paddyScan,
+      source_code_link: "https://github.com/Niranjangkr/paddy-diseases-classificationML",
     },
     {
-      name: "Job IT",
+      name: "Book Tracker",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that enables users to add, retrieve, and display book information.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Node.js",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Express",
           color: "pink-text-gradient",
         },
+        {
+          name: "GraphQL",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "MongoDB Atlas",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Apollo Client",
+          color: "blue-text-gradient",
+        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: BookTrack,
+      source_code_link: "https://github.com/Niranjangkr/GraphQL_Project",
     },
     {
-      name: "Trip Guide",
+      name: "Meme Generator",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
