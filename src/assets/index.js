@@ -33,7 +33,12 @@ import paddyScan from "./paddyScan.png"
 import BookTrack from "./BookTrack.png"
 import tripguide from "./tripguide.png";
 
+import linkedin from './linkedin.png'
+import twitter from './twitter.png'
+
 export {
+  linkedin,
+  twitter,
   logoN,
   logo,
   backend,

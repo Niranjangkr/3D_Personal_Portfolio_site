@@ -25,6 +25,9 @@ import {
     BookTrack,
     tripguide,
     threejs,
+    github,
+    linkedin,
+    twitter
   } from "../assets";
 
   export const navLinks = [
@@ -115,6 +118,24 @@ import {
     //   icon: docker,
     // },
   ];
+
+  const socials = [
+    {
+      name: "LinkedIn",
+      icon: linkedin,
+      url: "https://www.linkedin.com/in/niranjan-gaonkar/"
+    },
+    {
+      name: "Twitter",
+      icon: twitter,
+      url: "https://twitter.com/NiranjanGaonka7"
+    },
+    {
+      name: "GitHub",
+      icon: github,
+      url: "https://github.com/Niranjangkr/"
+    }
+  ]
   
   const experiences = [
     {
@@ -291,5 +312,14 @@ import {
       source_code_link: "https://github.com/",
     },
   ];
+
+const BlogLinks = [
+    {
+      url : "https://codewars.hashnode.dev/building-a-full-stack-graphql-application-a-guided-project-with-thenetninjauk"
+    },
+    {
+      url: "https://codewars.hashnode.dev/building-a-subscription-based-video-course-website-with-nodejs-express-and-firebase"
+    },
+  ]
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, socials, BlogLinks };
