@@ -20,6 +20,7 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I develop 3D visual, user <br className='sm:block hidden' /> Interfaces and professional looking websites
           </p>
+          <a href="https://docs.google.com/document/d/e/2PACX-1vRq96E1q8SFkbtxoAU4Xet--IV4pcexVwku0L7wevfpvaT0ii4Bh1o2pRho4IqPHLS8Q2Yrpjkj7ERi/pub" target='_blank'><button className='bg-violet-700 p-3 mt-4  rounded-xl text-white-100 font-medium relative z-10'>VIEW RESUME</button></a>
         </div>
       </div>
 
