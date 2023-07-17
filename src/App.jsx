@@ -15,8 +15,8 @@ const App = () => {
     <Experience />
     <Tech />
     <Works />
-    <Connect />
     <Blog/>
+    <Connect />
     {/* <Feedbacks />  */} {/*createed but not used need some changes */}
     <div className="relative z-0">
         <Contact />

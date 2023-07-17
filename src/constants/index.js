@@ -27,7 +27,10 @@ import {
     threejs,
     github,
     linkedin,
-    twitter
+    twitter,
+    learnFinance,
+    Wordpress,
+    dataChampIn
   } from "../assets";
 
   export const navLinks = [
@@ -85,10 +88,10 @@ import {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
+    // {
+    //   name: "Redux Toolkit",
+    //   icon: redux,
+    // },
     {
       name: "Tailwind CSS",
       icon: tailwind,
@@ -109,6 +112,11 @@ import {
       name: "git",
       icon: git,
     },
+    {
+      name: "Wordpress",
+      icon: Wordpress,
+    },
+    
     // {
     //   name: "figma",
     //   icon: figma,
@@ -291,25 +299,64 @@ import {
       source_code_link: "https://github.com/Niranjangkr/GraphQL_Project",
     },
     {
+      name: "Learn Finance Website",
+      description:
+        "Developed a secure subscription-based video course website, enabling clients to sell courses online. With Firebase authentication.",
+      tags: [
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Firebase",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: learnFinance,
+      siteURL: "https://learnfinance.co.in/",
+      source_code_link: "https://github.com/Niranjangkr/webisteLearnFInance",
+    },
+    {
       name: "Meme Generator",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
+        // {
+        //   name: "nextjs",
+        //   color: "blue-text-gradient",
+        // },
+        // {
+        //   name: "supabase",
+        //   color: "green-text-gradient",
+        // },
+        // {
+        //   name: "css",
+        //   color: "pink-text-gradient",
+        // },
       ],
       image: tripguide,
       source_code_link: "https://github.com/",
+    },
+    {
+      name: "DataChamp",
+      description:
+        "Designed and launched DataChamp, a dynamic job board platform connecting aspiring data professionals with top-notch opportunities",
+      tags: [
+        {
+          name: "Wordpress",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: dataChampIn,
+      siteURL: "https://datachamp.in/",
     },
   ];
 

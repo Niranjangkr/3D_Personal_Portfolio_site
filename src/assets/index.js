@@ -21,6 +21,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import Wordpress from "./tech/Wordpress.png"
 
 import freelance from "./company/freelance.png";
 import school from "./company/school.jpg";
@@ -32,6 +33,8 @@ import paddyScan from "./paddyScan.png"
 // import jobit from "./jobit.png";
 import BookTrack from "./BookTrack.png"
 import tripguide from "./tripguide.png";
+import learnFinance from "./learnFinance.png"
+import dataChampIn from "./dataChampIn.png"
 
 import linkedin from './linkedin.png'
 import twitter from './twitter.png'
@@ -70,4 +73,7 @@ export {
   // jobit,
   BookTrack,
   tripguide,
-};
+  learnFinance,
+  Wordpress,
+  dataChampIn,
+  };
