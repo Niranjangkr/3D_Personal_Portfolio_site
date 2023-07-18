@@ -19,7 +19,7 @@ export const Connect = () => {
 
       <div className='flex flex-row flex-wrap justify-center gap-10 mt-12'>
       {socials.map((social)=>(
-        <a href={social.url} target='_blank'>
+        <a href={social.url} target='_blank'  key={social.name} >
         <div key={social.name} className='rounded-3xl bg-gray-900' >
           <SphereCanvas icon={social.icon}/>
         </div>
@@ -27,7 +27,6 @@ export const Connect = () => {
       ))}
     </div>
 
-    
     </>
   )
 }

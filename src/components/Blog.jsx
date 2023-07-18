@@ -126,7 +126,7 @@ export const Blog = () => {
        <div className={`${styles.paddingX} -mt-20 pb-14 flex flex-wrap gap-7`}>
         {
           Blogs.map((blog, index) => {
-            return <SwiperSlide><BlogCard key={blog._id} index={index} data={blog} /></SwiperSlide>
+            return <SwiperSlide key={blog._id}><BlogCard key={blog._id} index={index} data={blog} /></SwiperSlide>
           })
         }
       </div>  

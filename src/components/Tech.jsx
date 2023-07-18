@@ -18,15 +18,12 @@ const handleHoverLeave = ()=>{
 }
 
   return (
-    <div className='flex flex-row flex-wrap justify-center gap-10'>
+    <div className='flex flex-row flex-wrap justify-center gap-10 gap-y-16'>
       {technologies.map((technology)=>(
-        <div className='w-28 h-28' key={technology.name} onMouseEnter={()=>handleHover(technology)} onMouseLeave={handleHoverLeave}>
-          <BallCanvas icon={technology.icon}/>
-          {
-            tech === technology && (
-              <span className='absolute align-top pl-4 text-center text-secondary font-medium'>{tech.name}</span>
-            ) 
-          }
+        <div className='w-28 h-28 flex flex-col mt-2' key={technology.name} onMouseEnter={()=>handleHover(technology)} onMouseLeave={handleHoverLeave}>
+          {/* <BallCanvas icon={technology.icon}/> */}
+          <img src={technology.icon} alt='skill'className='backdrop-blur-sm bg-white/20 rounded-2xl w-28 h-28 object-contain' />
+          <span className='mt-2 text-center text-white font-medium'>{technology.name}</span>
         </div>
       ))}
     </div>

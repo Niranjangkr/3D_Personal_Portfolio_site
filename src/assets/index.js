@@ -22,6 +22,10 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import Wordpress from "./tech/Wordpress.png"
+import graphQL from "./tech/graphQL.png"
+import firebase from "./tech/firebase.png"
+import Express from "./tech/Express.png"
+
 
 import freelance from "./company/freelance.png";
 import school from "./company/school.jpg";
@@ -40,6 +44,9 @@ import linkedin from './linkedin.png'
 import twitter from './twitter.png'
 
 export {
+  Express,
+  firebase,
+  graphQL,
   linkedin,
   twitter,
   logoN,

@@ -1,4 +1,5 @@
 import {
+    graphQL,
     mobile,
     backend,
     creator,
@@ -30,7 +31,9 @@ import {
     twitter,
     learnFinance,
     Wordpress,
-    dataChampIn
+    dataChampIn,
+    firebase,
+    Express,
   } from "../assets";
 
   export const navLinks = [
@@ -71,14 +74,22 @@ import {
     {
       name: "HTML 5",
       icon: html,
+      type: "Frontend",
     },
     {
       name: "CSS 3",
       icon: css,
+      type: "Frontend",
     },
     {
       name: "JavaScript",
       icon: javascript,
+      type: "Frontend",
+    },
+    {
+      name: "Express",
+      icon: Express,
+      type: "Backend",
     },
     // {
     //   name: "TypeScript",
@@ -87,6 +98,7 @@ import {
     {
       name: "React JS",
       icon: reactjs,
+      type: "Frontend",
     },
     // {
     //   name: "Redux Toolkit",
@@ -95,26 +107,42 @@ import {
     {
       name: "Tailwind CSS",
       icon: tailwind,
+      type: "Frontend",
     },
     {
       name: "Node JS",
       icon: nodejs,
+      type: "Backend",
     },
     {
       name: "MongoDB",
       icon: mongodb,
+      type: "Database",
+    },
+    {
+      name: "GraphQL",
+      icon: graphQL,
+      type: "Other",
+    },
+    {
+      name: "Firebase",
+      icon: firebase,
+      type: "Database",
     },
     {
       name: "Three JS",
       icon: threejs,
+      type: "Frontend",
     },
     {
       name: "git",
       icon: git,
+      type: "Version Control",
     },
     {
       name: "Wordpress",
       icon: Wordpress,
+      type: "Other",
     },
     
     // {
@@ -324,27 +352,27 @@ import {
       siteURL: "https://learnfinance.co.in/",
       source_code_link: "https://github.com/Niranjangkr/webisteLearnFInance",
     },
-    {
-      name: "Meme Generator",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        // {
-        //   name: "nextjs",
-        //   color: "blue-text-gradient",
-        // },
-        // {
-        //   name: "supabase",
-        //   color: "green-text-gradient",
-        // },
-        // {
-        //   name: "css",
-        //   color: "pink-text-gradient",
-        // },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },
+    // {
+    //   name: "Meme Generator",
+    //   description:
+    //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    //   tags: [
+    //     // {
+    //     //   name: "nextjs",
+    //     //   color: "blue-text-gradient",
+    //     // },
+    //     // {
+    //     //   name: "supabase",
+    //     //   color: "green-text-gradient",
+    //     // },
+    //     // {
+    //     //   name: "css",
+    //     //   color: "pink-text-gradient",
+    //     // },
+    //   ],
+    //   image: tripguide,
+    //   source_code_link: "https://github.com/",
+    // },
     {
       name: "DataChamp",
       description:

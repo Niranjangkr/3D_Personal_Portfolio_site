@@ -2,15 +2,13 @@ import React, { Suspense, useEffect, useState } from 'react'
 import { Canvas } from '@react-three/fiber' //canvas its just a empty canvas allowing us to place something on it
 import { OrbitControls, Preload, useGLTF } from '@react-three/drei' //helpers which are going to help us draw on the canvas useGLTF is most important which will help us to import 3d models
 import CanvasLoader from "../Loader" 
-import { ComputersCanvas } from '.'
 
 const Computers = ({isMobile}) => {
   const computer = useGLTF("./desktop_pc/scene.gltf")
-  console.log(isMobile)
+
   return (
     <mesh>
       <hemisphereLight intensity={0.15} groundColor="black" />
-      <pointLight intensity={1} />
       <spotLight 
       position = {[-20, 50, 10]} 
       // below property didn't make any eye noticeable difference though 
@@ -20,6 +18,7 @@ const Computers = ({isMobile}) => {
       castShadow
       shadow-mapSize = {1024}
       />
+      <pointLight intensity={1} />
       <primitive 
         object={computer.scene}
         scale = {isMobile ? 0.7 : 0.75}
@@ -60,6 +59,7 @@ const ComputerCanvas = () => {
     <Canvas
     frameloop='demand'//frameloop attribute is used in conjunction with the renderer to control the rendering loop behavior. By default, the frameloop attribute is set to "autostart", which means the rendering loop automatically starts when the renderer is created. However, you can set frameloop="demand" to prevent the rendering loop from automatically starting. With this setting, you have to manually start the rendering loop using the renderer.setAnimationLoop() method.
     shadows
+    dpr={[1, 2]}    
     camera={{position: [20, 3, 5], fov: 25}}
     gl={{preserveDrawingBuffer: true}}//The preserveDrawingBuffer option is a WebGL context attribute that can be used when creating the renderer in Three.js. It determines whether the contents of the WebGL drawing buffer (the canvas) should be preserved after rendering
     >
