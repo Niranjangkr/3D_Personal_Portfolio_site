@@ -8,6 +8,7 @@ import { socials } from '../constants'
 import SphereCanvas from './canvas/Sphere'
 
 export const Connect = () => {
+
   return (
     <>
       <motion.div className={textVariant()}>

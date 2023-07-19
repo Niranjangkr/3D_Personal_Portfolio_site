@@ -29,14 +29,11 @@ import Express from "./tech/Express.png"
 
 import freelance from "./company/freelance.png";
 import school from "./company/school.jpg";
-import starbucks from "./company/starbucks.png";
 import dataChamp from "./company/dataChamp.png";
 
-// import carrent from "./carrent.png";
 import paddyScan from "./paddyScan.png"
-// import jobit from "./jobit.png";
 import BookTrack from "./BookTrack.png"
-import tripguide from "./tripguide.png";
+// import tripguide from "./tripguide.png";
 import learnFinance from "./learnFinance.png"
 import dataChampIn from "./dataChampIn.png"
 
@@ -73,13 +70,11 @@ export {
   threejs,
   freelance,
   school,
-  starbucks,
   dataChamp,
   // carrent,
   paddyScan,
   // jobit,
   BookTrack,
-  tripguide,
   learnFinance,
   Wordpress,
   dataChampIn,
