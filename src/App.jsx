@@ -16,18 +16,18 @@ const App = () => {
     </div>
     <About />
     <Experience />
-    <Tech />
+    <Tech />  
     <Works />
     <Blog/>
-  <ErrorBoundary FallbackComponent={fallbackRender} onReset={()=> {}}>
-  <Suspense fallback={<div>Loading...</div>}>
-    <Connect />
-  </Suspense>
-   </ErrorBoundary>
+    <ErrorBoundary FallbackComponent={fallbackRender} onReset={()=> {}}>
+    <Suspense fallback={<div>Loading...</div>}>
+      <Connect />
+    </Suspense>
+    </ErrorBoundary>
     {/* <Feedbacks />  */} {/*createed but not used need some changes */}
     <div className="relative z-0">
-        <Contact />
-        <StarsCanvas/>
+      <Contact />
+      <StarsCanvas/>
     </div>
    </div>
   </BrowserRouter>
